@@ -17,6 +17,7 @@
 - https://github.com/torvalds/linux/blob/v5.8/samples/bpf/bpf_load.c
 - https://github.com/torvalds/linux/blob/v5.8/include/uapi/linux/bpf.h#L122
 - https://static.lwn.net/kerneldoc/bpf/btf.html
+- https://facebookmicrosites.github.io/bpf/blog/2018/11/14/btf-enhancement.html
 - https://cilium.io/
 - https://www.dpdk.org/
 - https://www.kernel.org/doc/html/v5.8/bpf/bpf_design_QA.html#q-can-more-than-5-function-arguments-be-supported-in-the-future
