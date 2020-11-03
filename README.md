@@ -21,6 +21,9 @@
 - https://www.dpdk.org/
 - https://www.kernel.org/doc/html/v5.8/bpf/bpf_design_QA.html#q-can-more-than-5-function-arguments-be-supported-in-the-future
 - https://sourceware.org/systemtap/
+- https://perf.wiki.kernel.org/index.php/Main_Page
+- https://lttng.org/
+- https://github.com/namhyung/uftrace
 
 ## 4장
 
