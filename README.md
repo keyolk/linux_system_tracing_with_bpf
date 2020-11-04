@@ -41,6 +41,7 @@
 - https://github.com/iovisor/bcc/blob/master/INSTALL.md#packages
 - https://cloud.google.com/
 - https://www.vagrantup.com/
+- https://www.vagrantup.com/docs/
 - https://libvirt.org/
 - https://www.virtualbox.org/
 - https://www.docker.com/
