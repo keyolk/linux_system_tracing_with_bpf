@@ -47,6 +47,7 @@
 - https://www.docker.com/
 - https://github.com/iovisor/bpftrace
 - https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
+- https://github.com/iovisor/bpftrace/issues/1588
 
 ## 7장
 - https://github.com/iovisor/gobpf
