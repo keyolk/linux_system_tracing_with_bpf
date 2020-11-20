@@ -89,12 +89,17 @@
 - https://github.com/jvm-profiling-tools/perf-map-agent
 - https://github.com/brendangregg/FlameGraph/blob/master/jmaps
 - https://github.com/goldshtn/libstapsdt-jni
+- https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tar.xz
+- https://github.com/nodejs/node
 - https://github.com/iovisor/bpftrace/pull/1567
 - https://pypi.org/project/stapsdt/
 - https://github.com/chrisa/node-dtrace-provider
 - https://github.com/chrisa/libusdt
+- https://github.com/postmodern/ruby-install/archive/v0.7.1.tar.gz
 - https://github.com/thekvn/ruby-usdt
+- https://www.cpan.org/src/5.0/perl-5.32.0.tar.gz
 - https://github.com/chrisa/perl-Devel-DTrace-Provider
+- http://git.php.net/repository/php-src.git
 - https://github.com/iovisor/bpftrace/issues/246
 
 ## 10장
