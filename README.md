@@ -72,6 +72,7 @@
 - https://github.com/iovisor/bcc/blob/master/tools/tcpdrop.py
 - https://github.com/iovisor/bcc/blob/master/src/cc/libbpf.h
 - https://github.com/torvalds/linux/blob/v5.8/include/linux/bpf.h#L834
+- https://github.com/iovisor/bcc/blob/v0.16.0/tools/sslsniff.py
 
 ## 8장
 
