@@ -107,6 +107,7 @@
 - https://github.com/iovisor/kubectl-trace
 - https://github.com/iovisor/kubectl-trace/issues/57
 - https://github.com/kinvolk/inspektor-gadget
+- https://github.com/kubernetes-sigs/krew
 
 ## 11장
 - https://github.com/cloudflare/ebpf_exporter
