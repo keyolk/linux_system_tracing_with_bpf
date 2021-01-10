@@ -84,6 +84,7 @@
 ## 8장
 
 ## 9장
+- https://www.kernel.org/doc/html/v5.8/vm/numa.html
 - https://www.kernel.org/doc/Documentation/networking/scaling.txt
 - https://www.kernel.org/doc/Documentation/networking/segmentation-offloads.txt
 - https://golang.org/doc/asm
