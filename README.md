@@ -1,21 +1,23 @@
-# starting_linux_bpf_tracing
+# linux_sytem_tracing_with_bpf
 
 ## 1장
 
 ## 2장
 - https://www.tcpdump.org/papers/bpf-usenix93.pdf
+- https://www.kernel.org/doc/Documentation/networking/filter.txt
 - https://lwn.net/Articles/603983/
 - http://www.brendangregg.com/bpf-performance-tools-book.html
 - http://llvm.org/
 - https://man7.org/linux/man-pages/man8/BPF.8.html
-- https://github.com/torvalds/linux/tree/v5.8/tools/lib/bpf
-- https://github.com/libbpf/libbpf
-- https://github.com/iovisor/bcc
-- https://github.com/iovisor/bpftrace
+- https://github.com/torvalds/linux/tree/v5.8/tools/lib/bpf/
+- https://github.com/libbpf/libbpf/
+- https://github.com/iovisor/bcc/
+- https://github.com/iovisor/bpftrace/
 - https://www.iovisor.org/ 
 - https://www.linuxfoundation.org/
-- https://ebpf.io
 - http://www.brendangregg.com/blog/2019-12-02/bpf-a-new-type-of-software.html
+- https://cilium.io/
+- https://ebpf.io/
 
 ## 3장
 - https://github.com/torvalds/linux/blob/v5.8/include/uapi/linux/bpf.h#L161 
@@ -23,25 +25,29 @@
 - https://github.com/torvalds/linux/blob/v5.8/samples/bpf/bpf_load.c
 - https://github.com/torvalds/linux/blob/v5.8/include/uapi/linux/bpf.h#L122
 - https://facebookmicrosites.github.io/bpf/blog/2018/11/14/btf-enhancement.html
-- https://static.lwn.net/kerneldoc/bpf/btf.html
-- https://www.kernel.org/doc/html/latest/bpf/btf.html#introduction
+- https://www.kernel.org/doc/html/v5.8/bpf/btf.html
 - https://www.dpdk.org/
-- https://cilium.io/
-- https://www.kernel.org/doc/html/v5.8/bpf/bpf_design_QA.html#q-can-more-than-5-function-arguments-be-supported-in-the-future
+- https://lwn.net/Articles/826884/
+- https://www.kernel.org/doc/html/v5.8/bpf/bpf_design_QA.html
 - https://sourceware.org/systemtap/
 - https://lttng.org/
 - https://perf.wiki.kernel.org/index.php/Main_Page
-- https://github.com/namhyung/uftrace
+- https://github.com/namhyung/uftrace/
 
 ## 4장
+- https://www.kernel.org/doc/html/v5.8/trace/kprobetrace.html
+- https://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz
+- https://www.kernel.org/doc/html/v5.8/core-api/tracepoint.html
+- https://github.com/sthima/libstapsdt/
 
 ## 5장
-- https://www.slideshare.net/brendangregg/java-performance-analysis-on-linux-with-flame-graphs
-- http://dwarfstd.org
+- https://www.slideshare.net/brendangregg/java-performance-analysis-on-linux-with-flame-graphs/
+- http://dwarfstd.org/
 - https://lwn.net/Articles/680985/
-- https://www.kernel.org/doc/html/latest/x86/orc-unwinder.html
-- https://github.com/brendangregg/FlameGraph
-- https://github.com/Netflix/flamescope
+- https://www.kernel.org/doc/html/v5.8/x86/orc-unwinder.html
+- https://github.com/brendangregg/FlameGraph/
+- https://github.com/Netflix/flamescope/
+- http://www.brendangregg.com/blog/2018-11-08/flamescope-pattern-recognition.html
 
 ## 6장
 - https://cloud.google.com/ 
@@ -50,33 +56,35 @@
 - https://www.virtualbox.org/ 
 - https://libvirt.org/ 
 - https://www.vagrantup.com/docs/ 
-- https://github.com/iovisor/bcc/blob/master/docs/kernel-versions.md 
-- https://github.com/iovisor/bcc/blob/master/INSTALL.md#packages
+- https://github.com/iovisor/bcc/blob/v0.16.0/docs/kernel-versions.md 
+- https://github.com/iovisor/bcc/blob/v0.16.0/INSTALL.md#packages
 - https://www.docker.com/
-- https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
+- https://github.com/iovisor/bpftrace/blob/v0.11.2/docs/tutorial_one_liners.md
 - https://raw.githubusercontent.com/torvalds/linux/v5.8/scripts/extract-vmlinux
 - https://github.com/iovisor/bpftrace/issues/516
 - https://github.com/iovisor/bpftrace/issues/940
 - https://github.com/iovisor/bpftrace/blob/v0.11.2/tools/dcsnoop.bt
 - https://github.com/iovisor/bpftrace/issues/1588
-- https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md
+- https://github.com/iovisor/bpftrace/blob/v0.11.2/docs/reference_guide.md
 
 ## 7장
 - https://github.com/iovisor/gobpf
 - https://github.com/cilium/ebpf
-- https://github.com/iovisor/bcc/blob/master/docs/tutorial_bcc_python_developer.md
+- https://github.com/iovisor/bcc/blob/v0.16.0/docs/tutorial_bcc_python_developer.md
 - https://github.com/iovisor/bcc/issues/748
 - https://lwn.net/Articles/804937/
-- https://github.com/torvalds/linux/tree/v5.8/include/linux/security.h
-- https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#maps
-- https://github.com/iovisor/bcc/blob/master/tools/tcpdrop.py
-- https://github.com/iovisor/bcc/blob/master/src/cc/libbpf.h
+- https://github.com/iovisor/bcc/blob/v0.16.0/docs/reference_guide.md#maps
+- https://github.com/iovisor/bcc/blob/v0.16.0/tools/sslsniff.py#L68
+- https://github.com/iovisor/bcc/blob/v0.16.0/tools/tcpdrop.py
+- https://github.com/iovisor/bcc/blob/v0.16.0/examples/networking/simple_tc.py
+- https://github.com/iovisor/bcc/issues/3090
+- https://github.com/iovisor/bcc/blob/v0.16.0/src/cc/libbpf.h
 - https://github.com/torvalds/linux/blob/v5.8/include/linux/bpf.h#L834
-- https://github.com/iovisor/bcc/blob/v0.16.0/tools/sslsniff.py
 
 ## 8장
 
 ## 9장
+- https://www.kernel.org/doc/Documentation/networking/scaling.txt
 - https://www.kernel.org/doc/Documentation/networking/segmentation-offloads.txt
 - https://golang.org/doc/asm
 - https://github.com/iovisor/bpftrace/pull/828
@@ -91,9 +99,9 @@
 - https://github.com/brendangregg/FlameGraph/blob/master/jmaps
 - https://github.com/goldshtn/libstapsdt-jni
 - https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tar.xz
-- https://github.com/nodejs/node
 - https://github.com/iovisor/bpftrace/pull/1567
 - https://pypi.org/project/stapsdt/
+- https://github.com/nodejs/node
 - https://github.com/chrisa/node-dtrace-provider
 - https://github.com/chrisa/libusdt
 - https://github.com/postmodern/ruby-install/archive/v0.7.1.tar.gz
@@ -101,9 +109,12 @@
 - https://www.cpan.org/src/5.0/perl-5.32.0.tar.gz
 - https://github.com/chrisa/perl-Devel-DTrace-Provider
 - http://git.php.net/repository/php-src.git
+- https://github.com/iovisor/bpftrace/blob/v0.11.2/tools/bashreadline.bt
+- https://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz
 - https://github.com/iovisor/bpftrace/issues/246
 
 ## 10장
+- https://github.com/systemd/systemd/blob/v247/NEWS#L4605
 - https://github.com/iovisor/bcc/blob/master/src/python/bcc/containers.py
 - https://github.com/iovisor/kubectl-trace
 - https://github.com/iovisor/kubectl-trace/issues/57
@@ -111,11 +122,13 @@
 - https://github.com/kubernetes-sigs/krew
 
 ## 11장
+- https://www.cloudflare.com/
 - https://github.com/cloudflare/ebpf_exporter
 - https://www.aquasec.com/
 - https://github.com/aquasecurity/tracee
 
-## 12장
+## 부록
+- https://github.com/iovisor/bcc/blob/v0.16.0/docs/kernel-versions.md#helpers
 - https://github.com/torvalds/linux/blob/v5.8/include/uapi/linux/bpf.h
 - https://github.com/torvalds/linux/tree/v5.8/samples/bpf
 - https://github.com/torvalds/linux/blob/v5.8/samples/bpf/bpf_load.h
@@ -123,9 +136,11 @@
 - https://github.com/acmel/dwarves
 - git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 - https://github.com/llvm/llvm-projects.git
+- https://github.com/iovisor/bcc
+- https://github.com/iovisor/bpftrace
 - https://get.docker.com
 
-## ETC
+## 참고자료
 - http://docs.cilium.io/en/latest/bpf/
 - https://docs.google.com/document/d/1zBlPI775KoXfCzP8X3OQjZNzX-SrxRr_/edit
 - https://www.collabora.com/news-and-blog/blog/2019/04/05/an-ebpf-overview-part-1-introduction/
