@@ -114,6 +114,7 @@
 - https://github.com/iovisor/bpftrace/blob/v0.11.2/tools/bashreadline.bt
 - https://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz
 - https://github.com/iovisor/bpftrace/issues/246
+- https://alanhargreaves.wordpress.com/2007/08/10/binsh-dtrace-provider/
 
 ## 10장
 - https://github.com/systemd/systemd/blob/v247/NEWS#L4605
