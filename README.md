@@ -87,6 +87,7 @@
 - https://www.kernel.org/doc/html/v5.8/vm/numa.html
 - https://www.kernel.org/doc/Documentation/networking/scaling.txt
 - https://www.kernel.org/doc/Documentation/networking/segmentation-offloads.txt
+- https://github.com/chrisa/libusdt#status
 - https://golang.org/doc/asm
 - https://github.com/iovisor/bpftrace/pull/828
 - https://github.com/iovisor/bcc/issues/1320
