@@ -145,7 +145,6 @@
 
 ## 참고자료
 - http://docs.cilium.io/en/latest/bpf/
-- https://docs.google.com/document/d/1zBlPI775KoXfCzP8X3OQjZNzX-SrxRr_/edit
 - https://www.collabora.com/news-and-blog/blog/2019/04/05/an-ebpf-overview-part-1-introduction/
 - https://github.com/brendangregg/perf-tools/blob/master/kernel/kprobe
 - https://github.com/iovisor/ubpf
